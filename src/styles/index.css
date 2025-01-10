@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .border-border {
+    border-color: theme('colors.border'); /* Adjust as necessary */
+  }
+}
+
+.InputStuff{
+  border:1px solid white; padding-left: 5px;
+  padding-right: 5px;
+}
